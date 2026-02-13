@@ -1,27 +1,40 @@
-# AI Wealth Advisor v2 (Python)
+# AI Wealth Advisor v2
 
-A beginner-friendly, menu-based personal finance tool that generates:
-- Risk profile (quiz → conservative/balanced/growth/aggressive)
-- Mini financial plan (emergency fund, budget split, debt strategy)
-- Portfolio growth simulation (with inflation adjustment + “bad year” scenario)
-- Goal-based planning (monthly amount needed to reach a target)
-- Profile saving + report export (TXT)
+A Python-based command-line wealth management tool that helps users:
 
-> Disclaimer: Educational purposes only. Not financial advice.
+- Assess risk tolerance
+- Generate a mini financial plan
+- Simulate long-term portfolio growth
+- Plan savings goals
+- Export financial reports
+
+---
 
 ## Features
-- ✅ Create / load a user profile
-- ✅ Risk quiz (risk score + portfolio style)
-- ✅ Mini financial plan + guardrails
-- ✅ Portfolio simulator (low/base/high returns + inflation + downturn)
-- ✅ Goal planner
-- ✅ Export report to a text file
 
-## How to Run (Mac)
-1. Open Terminal
-2. Go to the folder:
-   ```bash
-   cd ~/Documents/ai_wealth_advisor2.0
+- Risk quiz → portfolio style classification
+- Emergency fund + debt prioritization logic
+- 50/30/20 budgeting suggestion
+- Inflation-adjusted portfolio simulation
+- Downturn modeling
+- Goal-based savings calculator
+- Report export to text file
+
+---
+
+## Tech Stack
+
+- Python 3
+- No external libraries required
+
+---
+
+## How To Run
+
+```bash
+cd ~/Documents/ai_wealth_advisor2.0
+python3 advisor_v2.py
+
 
 
 
